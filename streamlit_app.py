@@ -10,7 +10,7 @@ st.write(
 )
 
 name_on_order = st.text_input("Name on Smoothie")
-st.write("The current movie title is", name_on_order)
+st.write("Name on order is:", name_on_order)
 
 cnx = st.connection("snowflake")
 session = cnx.session()
